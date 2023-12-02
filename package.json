@@ -1,0 +1,23 @@
+{
+  "name": "nwi",
+  "version": "1.0.0",
+  "description": "wrapped invoices in nodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/runner"
+  },
+  "keywords": [
+    "lightning-network",
+    "bitcoin",
+    "wrapped-invoices",
+    "invoices",
+    "ln"
+  ],
+  "author": "Sachin Meier",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ln-service": "^57.1.2"
+  }
+}
